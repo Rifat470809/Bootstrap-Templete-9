@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*reset css code */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+/*reset css end */
+
+/*--  menu-area-start  --*/
+.menu-area{
+	padding: 25px 0;
+	background: #fcd10d;
+	width: 100%
+}
+
+.menu-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-nav{
+	background: #fff;
+	margin-left: 30px;
+}
+
+.menu-nav ul li{
+	display: inline-block;
+}   
+
+.menu-nav ul li a{
+	text-decoration: none;
+	display: block;
+	color: #000;
+	padding: 8px 22px;
+	border-right: 1px solid #e1e1e1; 
+	margin-left: -5px;
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+	font-width: 500;
+	border-top: 2px solid transparent !important;
+}      
+
+.menu-nav ul li:hover a{
+	background: #e1e1e1;
+	border-top: 2px solid #322905 !important;
+}
+   
+.menu-area .logo img {
+	display: inline-block;
+	width: 100px;
+}
+
+.menu-nav ul li:last-child a{
+	border-right: none;
+}
+
+.login-register ul li:first-child{
+	background: #10a813;
+}
+
+.login-register ul li{
+	display: inline-block;
+}
+
+.login-register ul li:first-child a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	display: inline-block;
+	padding: 8px 11px;
+	font-family: 'Raleway', sans-serif;
+	font-width: 500;
+}
+
+.login-register ul li:first-child img{
+	width: 13px;
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.login-register ul li:last-child{
+	background: #fff;
+}
+
+.login-register ul:last-child a{
+	text-decoration: none;
+	color: #000;
+	font-size: 12px;
+	display: inline-block;
+	padding: 8px 11px;
+	font-family: 'Raleway', sans-serif;
+	font-width: 500;
+}
+
+.login-register ul li:last-child img{
+	width: 12px;
+	display: inline-block;
+	margin-right: 8px;
+}
+/*-- menu-area-end  --*/
+
+/*-- Welcome-scetion area start --*/
+.Welcome-scetion{
+	background: url(../img/medil-Bg.png);
+	padding: 60px 0;
+	background-repeat: repeat-y;
+	background-size: auto;
+	background-position: center;
+}
+
+.Welcome-wrapper{
+	box-shadow: 0 0 30px 13px #ebeef0; 
+}
+
+.Welcome{
+	background: url(../img/Bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.Sign-In{
+	text-align: right;
+	margin-top: 30px;
+}
+
+.Sign-In a{
+	text-decoration: none;
+	font-size: 12px;
+	background: #fff;
+	color: #424344;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	display: inline-block;
+	padding: 5px 25px;
+	border-radius: 25px 0 0 25px;
+}
+
+.Back{
+	padding: 165px 0;
+	text-align: center;
+}
+
+.Back h2{
+	font-size: 45px;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+.Back p{
+	font-size: 24px;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	margin-top: 20px;
+}
+
+.Sign{
+	padding: 35px 0;
+}
+
+.Sign a{
+	text-decoration: none;
+	font-size: 12px;
+	display: inline-block;	
+	padding: 8px 58px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 50px;
+}
+
+.Create{
+	background: #fff;
+	overflow: hidden;
+}
+
+.Sign-Up{
+	margin-top: 30px;
+}
+
+.Sign-Up a{
+	text-decoration: none;
+	font-size: 12px;
+	background: #fcd10d;
+	color: #424344;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	display: inline-block;
+	padding: 5px 25px;
+	border-radius: 0 25px 25px 0;
+}
+
+.Account{
+	margin-top: -26px;
+	text-align: center;
+}
+
+.Account h2{
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+.First{
+	padding: 25px 0;
+}
+
+.First input{
+	font-size: 13px;
+	width: 360px;
+	border: none;
+	border-bottom: 1px solid #c9c9c9;
+	color: #606060;
+	padding: 5px 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	padding-right: 25px;
+}
+
+.First input:focus{
+	outline: none;
+}
+
+.First img{	
+	width: 15px;
+	margin-left: -20px;
+}
+
+.Last{
+	padding: 25px 0;
+}
+
+.Last input{
+	font-size: 13px;
+	width: 360px;
+	border: none;
+	border-bottom: 1px solid #c9c9c9;
+	color: #606060;
+	padding: 5px 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	padding-right: 25px;
+}
+
+.Last input:focus{
+	outline: none;
+}
+
+.Last img{	
+	width: 15px;
+	margin-left: -20px;
+}
+
+.Your-Email{
+	padding: 25px 0;
+}
+
+.Your-Email input{
+	font-size: 13px;
+	width: 360px;
+	border: none;
+	border-bottom: 1px solid #c9c9c9;
+	color: #606060;
+	padding: 5px 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	padding-right: 25px;
+}
+
+.Your-Email input:focus{
+	outline: none;
+}
+
+.Your-Email img{	
+	width: 15px;
+	margin-left: -20px;
+}
+
+.Password{
+	padding: 25px 0;
+}
+
+.Password input{
+	font-size: 13px;
+	width: 360px;
+	border: none;
+	border-bottom: 1px solid #c9c9c9;
+	color: #606060;
+	padding: 5px 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	padding-right: 25px;
+}
+
+.Password input:focus{
+	outline: none;
+}
+
+.Password img{	
+	width: 15px;
+	margin-top: -8px;
+	margin-left: -20px;
+}
+
+.Confirm-Password{
+	padding: 25px 0;
+}
+
+.Confirm-Password input{
+	font-size: 13px;
+	width: 360px;
+	border: none;
+	border-bottom: 1px solid #c9c9c9;
+	color: #606060;
+	padding: 5px 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	padding-right: 25px;
+}
+
+.Confirm-Password input:focus{
+	outline: none;
+
+}
+
+.Confirm-Password img{	
+	width: 15px;
+	margin-top: -8px;
+	margin-left: -20px;
+}
+
+.robot{
+	text-align: center;
+}
+
+.robot img{
+	width: 200px;
+	margin-top: 10px;
+}
+
+.Create-account{
+	text-align: center;
+	padding: 25px 0;
+}
+
+.Create-account a{
+	font-size: 16px;
+	color: #000000;
+	padding: 8px 45px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+	background: #fcd10d;
+}
+/*-- Welcome-scetion area end --*/
+
+/*-- footer-scetion area start --*/
+.footer-scetion{
+	background: #fff;
+	border-top: 1px solid #ddd;
+}
+
+.footer-wrapper{
+	margin-top: 50px
+}
+
+.footer-logo{
+	margin-top: 105px;
+}
+
+.footer-logo img{
+	width: 150px;
+}
+
+.About{
+	border-right: 1px solid #d7d7d7;
+	padding-right: 30px;
+}
+
+.About h2{
+	font-size: 16px;
+	color: #161616;
+	padding: 0px 10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+.Why h2{
+	font-size: 15px;
+	border-bottom: 1px solid #d7d7d7;
+	padding: 9px 10px;
+	color: #161616;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+.Why h2:first-child{
+	background: url(../img/join.png);
+}
+
+.Why h2:last-child{
+	border: none;
+}
+
+.Follow{
+	border-right: 1px solid #d7d7d7;
+	padding-right: 40px;
+	padding-bottom: 35px;
+}
+
+.Follow h2{
+	font-size: 16px;
+	padding: 0px 10px;
+	color: #161616;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+.icon ul li{
+	padding: 9px 5px;
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.icon ul li a{
+	font-size: 16px;
+	color: #4f4f4f;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.icon ul li a span{
+	font-size: 25px;
+	padding-right: 10px;
+}
+
+.icon ul li:first-child span{
+	color: #3a5897;
+}
+
+.icon ul li:last-child span{
+	color: #dc4e41;
+}
+
+.icon ul li:nth-child(2) span:first-child {
+	color: #54aced;
+	border-radius: 50%;
+}
+
+.icon ul li:nth-child(3) span:first-child {
+	color: #6a453a;
+}
+
+.Newsletter{
+	margin-left: 40px;
+}
+
+.Newsletter h2{
+	font-size: 16px;
+	color: #161616;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;	
+}
+
+.Newsletter p{	
+	font-size: 14px;
+	margin-top: 37px;
+	color: #161616;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+.Email input{
+	padding: 15px 10px;
+	background: #e4e4e4;
+	border: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	width: 100%;
+	color: #898989;
+	font-size: 14px;
+}
+.Email input:focus{
+	outline: none;
+}
+
+.form-btn{
+	padding: 25px 0;
+}
+
+.form-btn button{
+	outline: none;
+	display: inline-block;
+	padding: 7px 25px;
+	border:none;
+	color:#000000;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	background: #ffb606;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+/*-- footer-scetion area end --*/
+
+/*-- Copyright-scetion area start --*/
+.Copyright-scetion{
+	background: url(../img/Copyright-bg.png);
+	padding: 15px 0;
+	border-top: 1px solid #dddddd;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.Copyright-wrapper h2{
+	font-size: 16px;
+	color: #161616;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
+/*-- Copyright-scetion area end --*/
+
+
+
+
+
